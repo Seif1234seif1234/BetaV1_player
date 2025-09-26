@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(13, 115, 152);
+    font-family: 'Helvetica', sans-serif;
+    border: 0;
+    position: relative;
+}
+._main_{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 500px;
+    justify-self: center;
+    gap: 15px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px;
+    top: 50px;
+}
+.div_input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.div_input label{
+    margin-left: 7px;
+}
+._main_ input{
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: medium;
+}
+.button_join {
+    cursor: pointer;
+    font-size: medium;
+}
+.button_join:active{
+    background-color: rgb(189, 189, 189);
+}
+.div_title{
+    border-bottom: 1px solid grey;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.error{
+    text-align: center;
+    font-size: larger;
+}
+.title_beta{
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 0 0 5px black;
+    color: antiquewhite;
+}
